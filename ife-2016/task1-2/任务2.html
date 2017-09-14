@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>H02 | 零基础HTML及CSS编码（一）</title>
+    <link rel="stylesheet" href="./任务2.css" type="text/css" />
+</head>
+<body>
+    <header role="banner">
+        <h1><a href="#"><img src="./task_1_02_1.png"></a></h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#" target="_blank">链接一</a></li>
+                <li><a href="#" target="_blank">链接二</a></li>
+                <li><a href="#" target="_blank">链接三</a></li>
+                <li><a href="#" target="_blank">链接四</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <article>
+            <h2>文章一级标题</h2>
+            <h3>文章二级标题</h3>         <!--&nbsp空格-->
+            <span class="auther">文章作者</span>&nbsp<span class="aTime">发表时间</span>
+            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，<a href="#" target="_blank">新标签页打开网页</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+            <img src="./task_1_01.jpg" alt="面向大海" />
+            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="#" target="_blank">新标签页打开网页</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        </article>
+        <article>
+            <ul>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+        </article>
+        <article>
+            <h2>图片</h2>
+            <dl>
+                <dt></dt>
+                <dd><span>拥抱大海</span><img src="./task_1_01.jpg" alt="面朝大海"></dd>
+                <dd><span>拥抱大海</span><img src="./task_1_01.jpg" alt="面朝大海"></dd>
+                <dd><span>拥抱大海</span><img src="./task_1_01.jpg" alt="面朝大海"></dd>
+                <dd><span>拥抱大海</span><img src="./task_1_01.jpg" alt="面朝大海"></dd>
+            </dl>
+        </article>
+        <article>
+            <h2>最后</h2>
+            <h3>二级</h3>
+            <span class="auther">文章作者</span><span class="aTime">发表时间</span>
+            <ol>
+                <li>排名1</li>
+                <li>排名2</li>
+                <li>排名3</li>
+            </ol>
+            <p>表格</p>
+            <table border="1">
+                <tr><th>表头</th><th>表头</th><th>表头</th></tr>
+                <tr><td></td><td></td><td></td></tr>
+                <tr class="buttomTable"><td>总计</td></tr>
+            </table>
+        </article>
+    </main>
+
+    <aside>
+        <h4>侧栏</h4>
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">请输入邮箱地址</label>
+                <input type="text" placeholder="邮箱">
+            </div>
+            <div>
+                <label class="tips">请输入密码</label>
+                <input type="password" placeholder="密码">
+            </div>
+            <div>
+                <label class="tips">请重复密码</label>
+                <input type="password" placeholder="重复密码">
+            </div>
+        </form>
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">性别</label>
+                <input type="radio" value="male" name="sex" checked="checked" />
+                <label>男</label>
+                <input type="radio" value="female" name="sex" />
+                <label>女</label>
+            </div>
+        </form>
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">爱好</label>
+                <input type="checkbox" value="sport" name="hobby" />
+                <label>运动</label>
+                <input type="checkbox" value="art" name="hobby" />
+                <label>艺术</label>
+                <input type="checkbox" value="science" name="hobby" />
+                <label>科学</label>
+            </div>
+        </form>
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">个人描述</label>
+                <textarea name="" id="" cols="20" rows="2">描述 多行输入</textarea>
+            </div>
+        </form>
+        <input type="button" class="submitButton" value="确认提交" />
+    </aside>
+<footer>
+    <p>版权所有ⓒhollowtree</p>
+</footer>
+</body>
+</html>
